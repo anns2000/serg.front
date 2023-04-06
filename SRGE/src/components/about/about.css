@@ -1,0 +1,70 @@
+.about-page{
+    min-height: 90vh;
+}
+
+.about-page{
+    min-height: 90vh;
+}
+.about-container{
+    display: flex;
+    padding: 2% 5%;
+    gap: 5%;
+    margin-bottom: 100px;
+}
+.personal-data img{
+    border-radius: 30px;
+    box-shadow: 1px 0px 10px 8px #ececec;
+    margin-bottom: 25px;
+}
+.personal-data{
+    border-radius: 5px;
+    padding: 10px 30px ;
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+.personal-data p{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.card-about{
+    text-align: center;
+    font-weight: 500;
+}
+.about-data{
+    width: 60%;
+}
+.about-data h1{
+    color: #BDA175
+}
+.about-data p{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+@media(max-width: 1000px) {
+    .personal-data p{
+        font-size: 13px;
+    }
+    .personal-data{
+        padding: 0;
+    }
+}
+
+@media(max-width: 700px) {
+    .about-container{
+        display: inline-block;
+    }
+    .personal-data , .about-data{
+        width: 90%;
+    }
+    .personal-data{
+        display:flex;
+        align-items: center;
+    }
+    .personal-data img{
+        width: 50%;
+    }
+
+}

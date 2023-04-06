@@ -1,0 +1,24 @@
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 100;
+    padding: 5px 15px;
+    border-radius:25px;
+    background-color: #BDA175;
+    font-size: 30px;
+    font-weight: bold;
+    border:none;
+    cursor: pointer;
+    color: white;
+    animation: up-and-down 2s linear infinite;
+}
+@keyframes up-and-down{
+  0%,
+100% {
+    bottom: 50px;
+}
+50% {
+    bottom: 75px;
+}
+}

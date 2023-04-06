@@ -1,0 +1,28 @@
+.contact{
+    min-height: 77vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px
+}
+.contact-data{
+    margin-bottom: 0;
+}
+.contact .icon{
+    color: white;
+    font-size: 30px;
+}
+.contact .icon-design{
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+}
+.location{
+    line-height: 30px;
+}

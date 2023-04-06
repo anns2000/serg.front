@@ -1,0 +1,48 @@
+.one-research{
+    min-height: 95vh;
+    margin-top: 8vh;
+    width: 80%;
+    padding: 20px 10%;
+}
+.one-research p{
+    width: 90%;
+    font-size: 20px;
+}
+.members{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.members div{
+    padding: 10px 30px;
+    background-color: #BDA175;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.download{
+    margin-top: 15px;
+    padding: 15px 30px;
+    background-color: #BDA175;
+    display: inline-block;
+    color: white;
+    border-radius: 35px;
+    border: 1px solid #BDA175;
+}
+.download .icon{
+    margin-left: 10px;
+}
+.download:hover{
+    background-color: transparent;
+    color: #BDA175
+}
+@media(max-width: 750px){
+    .header{
+        padding: 20px;
+    }
+}
