@@ -12,12 +12,12 @@ export default function About(){
                     <img src={owner} alt='owner'/>
                     <div className="card-about">
                   
-                        <p>Faculty of Computers and Artificial Intelligence</p>
+                        <p>Scientific Research Group in Egypt</p>
                     </div>
                 </div>
                 <div className="about-data">
               
-                    <h1>The Scientific Research Group in Egypt</h1>
+                    <h1>Scientific Research Group in Egypt</h1>
                     <br></br>
 	
 

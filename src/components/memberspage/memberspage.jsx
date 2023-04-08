@@ -24,7 +24,7 @@ export default function MembersPage(){
                             <div className='team-card' key={index}>
                                 <img src={data.photo} alt='member'/>
                                 <div className="team-data">
-                                    <div className="team-name">Dr. {data.name}</div>
+                                    <div className="team-name"> {data.name}</div>
                                     <hr/>
                                     <div className="team-job">{data.des}</div>
                                 </div>   

@@ -11,18 +11,18 @@
     margin-bottom: 50px;
 }
 .fullmembers .team-card{
-    background-color: #fcfcfc
+    background-color:white;
+
 }
 .team-card{
-    width: 600px;
+    width: 500px;
     display: flex;
     height: 200px;
     background-color: white;
     align-items: center;
     padding: 20px;
-    gap: 20px;
+    gap: 40px;
     border-radius: 10px;
-    
 }
 .team-card img{
     width: 30%;
@@ -40,6 +40,7 @@
 }
 .team-data{
     width: 70%;
+
 }
 hr{
     background-color: #dfdfdf;
