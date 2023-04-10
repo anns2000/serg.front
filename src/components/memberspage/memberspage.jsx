@@ -26,7 +26,9 @@ export default function MembersPage(){
                                 <div className="team-data">
                                     <div className="team-name"> {data.name}</div>
                                     <hr/>
-                                    <div className="team-job">{data.des}</div>
+                                    <div className="team-job">{data.degree}</div>
+                                    
+                                   <div className="team-job">{data.affiliation}</div>
                                 </div>   
                             </div>
                         );
