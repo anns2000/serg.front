@@ -11,7 +11,7 @@ export default function About(){
                 <div className = 'personal-data'>
                     <img src={owner} alt='owner'/>
                     <div className="card-about">
-                  
+                  {/* dr/abo al */}
                         <p>Scientific Research Group in Egypt</p>
                     </div>
                 </div>
